@@ -1,0 +1,515 @@
+
+.section-gauche{
+    color:#3A8EF6;
+    margin-left: 190px;
+    font-size:40px;
+}
+body {
+    margin: 0; /* Supprime les marges par défaut du corps du document */
+}
+
+header {
+    display: flex;
+    justify-content: center; /* Utilisez plutôt "space-between" pour aligner les éléments à l'extrémité gauche et droite */
+    align-items: center;
+    padding: 10px; 
+    
+    color: #fff; 
+}
+
+#entete {
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   margin-left: 250px;
+}
+
+#entete a {
+    margin-right: 19px;
+    text-decoration: none;
+    color: #00BFA5;
+}
+
+#doc_B {
+    margin-left: auto; /* Place "Book Now" à l'extrémité droite de l'entête */
+}
+
+
+
+#section1{
+  display: flex;
+  text-align:center;
+  margin-left: 40px;
+  margin-top: -40px;
+}
+#section1T{
+    margin-top: 200px;
+    margin-left: 00px;
+}
+#section1 h1{
+    font-size: 55px;
+    margin-left: 60px;
+}
+#section1 h4{
+    margin-top: 90px;
+    margin-right: 240px;
+    margin-left: -60px;
+    color:#00BFA5;
+}
+#section1T h5{
+    margin-left: 90px;
+    margin-top: -20px;
+    
+}
+
+    #cercleimg {
+        position: absolute;
+        width: 600px;
+        height: 550px;
+        border-radius: 50%;
+        background-color: rgb(5, 123, 174);
+        margin-top: -15%;
+        margin-left: 40%;
+        overflow: hidden;
+        right: 10%;
+        z-index: 1; /* Assurez-vous que le cercle est au-dessus de l'image */
+        margin-right: -10%;
+        margin-top: 170px;
+    }
+    
+    #pharmacien {
+        position: absolute;
+        width: 650px;
+        height: 650px;
+        display: block;
+        z-index: 2; /* Assurez-vous que l'image est au-dessus du cercle */
+        top: 10%; /* Ajustez cette propriété pour déplacer vers le bas l'image */
+    
+    }
+.tri{
+    margin-top: 160px;
+  
+    margin-left: 130px;
+}
+    
+    #clock{
+        width: 200px;
+        height: 70px;
+        background-color:rgb(111, 166, 215);
+        border-radius:10px;
+        margin-right: 20px;
+        
+   
+    }
+    #experience{
+        width: 200px;
+        height: 70px;
+        background-color:rgb(111, 166, 215);
+        border-radius:10px;
+        margin-right: 20px;
+   
+    }
+    #Quality{
+        width: 200px;
+        height: 70px;
+        background-color:rgb(111, 166, 215);
+        border-radius:10px;
+        margin-right: 20px;
+   
+    }
+    .tri{
+        display: flex;
+    }
+    .tri h6{
+        font-size:30%;
+    }
+  .tri h3{
+    font-size: 50%;
+  }
+  #doc{
+    float:left;
+    
+  }
+  #about{
+    display:flex;
+    float:left;
+    padding-top:140px;
+    margin-left: 290px;
+    margin-top: 50px;
+   
+   
+  }
+  #T_ab{
+    margin-left: 260px;
+    float: left;
+  }
+  
+#doc{
+    margin-left: 150px;
+}
+
+#doc_B{
+   
+            display: inline-block;
+padding: 16px 28px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 100px;
+background: linear-gradient(96deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
+box-shadow: 0px 8px 23px 0px rgba(65, 132, 247, 0.24);
+    }  
+
+#doc_B2{
+width: 120px;
+        height: 20px;
+        background-color:rgb(22, 11, 235);
+        border-radius:20px;
+        margin-left: 350px;
+        align-items: center;
+        cursor: pointer;
+}  
+#services{
+    margin-top: 480px;
+    margin-left: 12%;
+   
+}  
+
+#cerclepo {
+    width: 430.63px;
+    height: 430.63px;
+    flex-shrink: 0;
+    border-radius: 570.63px;
+    border: 8px dashed var(--green, #00BFA5);
+    box-shadow: 1px -2px 3px 0px rgba(0, 0, 0, 0.35) inset, -2px -2px 4px 0px rgba(255, 255, 255, 0.60) inset;
+    margin-left: auto;
+    margin-top: -280px;
+    position: relative;
+}
+
+#servicep2 {
+    width: 351.222px;
+    height: 351.222px;
+    flex-shrink: 0;
+    border-radius: 451.222px;
+    border: 8px dashed var(--green, #00BFA5);
+    box-shadow: 1px -2px 3px 0px rgba(0, 0, 0, 0.35) inset, -2px -2px 4px 0px rgba(255, 255, 255, 0.60) inset;
+    margin-left: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+#cerclep{
+        
+        border: 2px dotted #333;
+        border-radius:50%;
+       height: 160px;
+       width: 300px;
+}
+#services img{
+    width: 316.889px;
+height: 316.889px;
+justify-content: center;
+flex-shrink: 0;
+border-radius: 316.889px;
+background: url(./img/00\ -\ Ciencias\ Básicas.png), lightgray 50% / cover no-repeat;
+margin-left: 20px;
+margin-top: 15px;
+}
+#pat{
+    margin-top: -180px;
+    float: right;
+    margin-right:210px ;
+    
+}
+#general{
+    width: 300px;
+        height: 420px;
+        background-color:rgb(251, 252, 253);
+        border-radius:20px;
+        margin-right: 70px;
+        align-items: center;
+
+}
+#pediatric{
+    width: 300px;
+        height: 420px;
+        background-color:rgb(251, 252, 253);
+        border-radius:20px;
+        margin-right: 100px;
+        justify-content: center;
+
+}
+#Nutritional{
+    width: 300px;
+        height: 420px;
+        background-color:rgb(251, 252, 253);
+        border-radius:20px;
+        margin-right: 70px;
+        align-items: center;
+
+}
+#cardiology{
+    width: 300px;
+        height: 420px;
+        background-color:rgb(251, 252, 253);
+        border-radius:20px;
+        margin-right: 70px;
+        align-items: center;
+
+}
+#ophtamology{
+    width: 300px;
+        height: 420px;
+        background-color:rgb(251, 252, 253);
+        border-radius:20px;
+        margin-right: 70px;
+        align-items: center;
+
+}
+#orthopedics{
+    width: 300px;
+        height: 420px;
+        background-color:rgb(251, 252, 253);
+        border-radius:20px;
+        margin-right: 70px;
+        align-items: center;
+        justify-content: center;
+
+}
+#liste{
+    background-color: rgb(219, 231, 232);
+    
+#Lser{
+    justify-content: center;
+    margin-left: 10%;
+}
+
+}
+#first{
+    display: flex;
+    justify-content: center;
+}
+#second{
+    display: flex;
+}
+#section4{
+    justify-content: center;
+    margin-left: 140px;
+}
+#section4 h2 {
+    margin-left: 190px;
+}
+#section4 h5 {
+    margin-left: 190px;
+    max-width: 640px;
+    margin-top: -10px;
+
+}
+#section4 h4{
+    margin-left:390px ;
+}
+#Tsec{
+    
+    justify-content: center;
+    margin-right: 120px;
+  
+}
+#section5{
+    width: 80%;
+    height: 190px;
+        background-color:rgb(111, 166, 215);
+        border-radius:20px;
+        justify-content: center;
+        margin-left: 160px;
+       margin-top: -50px;
+
+        
+
+}
+
+#B{
+   
+    
+}
+
+#section5ser{
+    display:flex;
+    justify-content: center;
+   
+}
+#clock2 {width: 250px;
+height: 50px;
+background-color:rgb(111, 166, 215);
+border-radius:10px;
+margin-right: 10px;}
+#exp2{
+    width: 250px;
+    height: 50px;
+    background-color:rgb(111, 166, 215);
+    border-radius:10px;
+    margin-right: 10px;
+}
+#hours2{
+    width: 250px;
+    height: 50px;
+    background-color:rgb(111, 166, 215);
+    border-radius:10px;
+    margin-right: 10px;
+}
+#section6{
+    margin-top: 150px;
+    background-color:aliceblue;
+  
+    
+}
+
+#section6 h5{
+    width: 450px;
+    height: 120px;
+    background-color:#fff;
+    border-radius:10px;
+    margin-right: 50px;
+    justify-content: center;
+    align-items:center;
+    
+}
+#txt6{
+    justify-content: center;
+    margin-left: 430px;
+   max-width: 480px;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   
+}
+#com{}
+#L1{
+    display: flex;
+    justify-content: center;
+   
+
+}
+#L2{
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+}
+footer {
+    background-color: #0519f3;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width:auto;
+}
+
+.footer-sections {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.content-container {
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    max-width: 80%;
+    margin-right: 10px; /* Marge entre l'image et le texte */
+}
+@media only screen and (min-width: 200px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    /* Ajoutez ici vos styles pour les écrans de 600 pixels de largeur ou moins */
+    header {
+        text-align: center;
+    }
+
+    #entete {
+        margin-left: 0;
+    }
+
+    #section1 {
+        margin-left: 170px;
+        
+    }
+    #section1T h6{
+        margin-left: -50px;
+
+    }
+    #doc{
+        width: 400px;
+        margin-right: -750px;
+
+    }
+    #services h4{
+        display: none;
+    }
+
+
+    #cercleimg {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: -60px;
+        width: 350px;
+        height: 350px;
+    }
+
+    #about {
+        flex-direction: column;
+        align-items: center;
+        margin-right: -750px;
+       
+    }
+    
+
+    #sim {
+        display: none;
+    }
+    #sim img{
+        display: none;
+        
+    }
+    #liste{
+        display: none;
+    }
+#cerclepo{
+    display: none;
+}
+    #T_ab {
+        margin-left: 0;
+        margin-top: 100px;
+       margin-right: -750px;
+    }
+
+    /* Ajoutez d'autres styles pour aligner verticalement d'autres sections si nécessaire */
+}
+#Tsec{display: none;
+}
